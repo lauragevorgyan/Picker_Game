@@ -1,0 +1,101 @@
+<!-- 
+	Gevorgyan Laura
+	ymail (gevorgyan.laura@yahoo.com)
+	Date (09/12/2019)
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Picker Game</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="container">
+            <h1> Picker </h1>
+
+        <section class="score">
+
+        	<span class="count">0</span> Count
+
+            <div class="space">
+            </div>
+
+            <div class="restart" onclick=startGame()>
+        		<i class="fa fa-repeat"></i>
+        	</div>
+
+        </section>
+
+        <ul class="cards" id="cards">
+            <li class="card" type="facebook">
+                <i class="fa fa-facebook-square"></i>
+            </li>
+            <li class="card" type="git">
+                <i class="fa fa-git-square"></i>
+            </li>
+            <li class="card match" type="google">
+                <i class="fa fa-google-plus-square"></i>
+            </li>
+            <li class="card" type="linkedin" >
+                <i class="fa fa-linkedin-square"></i>
+            </li>
+            <li class="card" type="youtube">
+                <i class="fa fa-youtube-square"></i>
+            </li>
+            <li class="card match" type="google">
+                <i class="fa fa-google-plus-square"></i>
+            </li>
+            <li class="card" type="pinterest">
+                <i class="fa fa-pinterest-square"></i>
+            </li>
+            <li class="card" type="twitter">
+                <i class="fa fa-twitter-square"></i>
+            </li>
+            <li class="card" type="facebook">
+                <i class="fa fa-facebook-square"></i>
+            </li>
+            <li class="card" type="stack">
+                <i class="fa fa-stack-overflow"></i>
+            </li>
+            <li class="card" type="pinterest">
+                <i class="fa fa-pinterest-square"></i>
+            </li>
+            <li class="card" type="stack">
+                <i class="fa fa-stack-overflow"></i>
+            </li>
+            <li class="card open show" type="linkedin">
+                <i class="fa fa-linkedin-square"></i>
+            </li>
+            <li class="card" type="twitter">
+                <i class="fa fa-twitter-square"></i>
+            </li>
+            <li class="card" type="git">
+                <i class="fa fa-git-square"></i>
+            </li>
+            <li class="card" type="youtube">
+                <i class="fa fa-youtube-square"></i>
+            </li>
+        </ul>
+
+        <div id="popupmenu" class="popup-menu-style">
+            <div class="popup">
+                <a class="close" href=# >×</a>
+                <div class="contentsecond">
+                    <p>You made <span id=latestMove> </span> moves </p>
+                </div>
+                <button id="play-again"onclick="playAgain()">
+                    Play again </a>
+                </button>
+            </div>
+        </div>
+
+    </div>
+		
+		<script type="text/javascript" src="js/conf.js"></script>
+</body>
+</html>
